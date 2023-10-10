@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    /*color: rgb(4, 209, 4);*/
+      text-align: center;
+      /*margin-top: 50px;
+      margin-bottom: 40px;*/
+      
+    }
+
+ #ofertas {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+ }   
+
+#ofertas .row .col-md-4  img{
+    width: 400px;
+    height: 300px;
+
+}
+
+.container {
+    margin-top: 30px;
+}
+
+
+.carousel-item  {
+    width: 800px;
+    height: 500px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+img {
+ 
+max-width: 100%;
+max-height: 100%;
+
+
+}
+
+
+#silla {
+   text-align: center;
+  
+}
+
+
+.line {
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(146, 144, 144);
+    /*margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;*/
+    margin: 15px;
+  
+}
+
+
+/*estilos de la pagina detalle del producto - auricular*/
+
+.Columns .col {
+    border: 1px black solid;
+}
+
+#precio {
+    text-align: center;
+    margin: 30px;
+    color: rgb(4, 209, 4);
+}
+
+.comprar {
+    width: 100%;
+    background-color:  rgb(4, 209, 4);
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.comprar a {
+    text-decoration: none;
+    color: white;
+}
+#descripcion {
+    margin-bottom: 30px;
+}
+
+.titulo {
+    color: rgb(4, 209, 4);
+}
+
+.comments  {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+/*Diseño del carrito*/
+
+.card-button {
+
+    background-color: white;
+    color: rgb(90, 90, 242);
+    border: none;
+}
+
+
+.line-card {
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(146, 144, 144);
+    /*margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;*/
+    margin: auto;
+
+  
+}
+
+.precio {
+    /*color: rgb(4, 209, 4) ;*/
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+#resumen-compra { 
+    text-align: center;
+}
+
+.cupon {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#productos .col {
+   
+    text-align: center;
+}
+
+#total {
+    text-align: center;
+    margin: 5px;
+}
+
+
+/*Estilos de la pagina contacto*/
+.container-contactos {
+    margin-top: 50px;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+    
+}
+
+
+
+.contactos {
+ width: 650px;
+/*width: 40%;*/
+ height: 600px;
+   
+ border: 1px black solid;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+
+
+
+
+
+#email {
+    width: 250px;
+ 
+    border-radius: 5px;
+}
+
+#email:hover {
+    border:#0d6efd solid;
+}
+
+
+#text-area {
+   width: 250px;
+    
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#text-area:hover {
+  
+    border:3px #0d6efd solid;
+}
+
+
+#submit {
+    width: 100px;
+  
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    display: block;
+    
+
+}
+
+
+label {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 70%;
+    height: 30%;
+}
+
+.direccion {
+   width: 650px;
+   /* width: 40%;*/
+    height: 600px;
+   padding: 30px;
+   margin-top: 30px;
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+   }
+   
+
+   @media (max-width:680px) {
+
+    .direccion {
+        width: 80%;
+    }
+
+    .contactos {
+        width: 80%;
+    }
+
+    #ofertas {
+        display: none;
+    }
+    
+    .carousel-item {
+        margin-bottom: 0px;
+    }
+   }
+
+
+   /*Estilos del footer*/
+   footer {
+    background-color: #e3f2fd;  
+    padding: 20px ; 
+    margin-top: 30px;
+}
+
+.footer-column {
+    text-align: center; 
+    margin-bottom: 20px; 
+    transition: transform 0.9s ease-in-out; 
+}
+
+.footer-column:hover {
+    transform: scale(1.1); 
+}
+
+.footer-logo {
+    font-size: 20px;  
+    font-weight: bold;
+}
+
+
+.footer-social {
+    font-size: 20px; 
+}
+
+.footer-info {
+    font-size: 16px; 
+}
+
+
+@media (max-width: 767px) {
+    .footer-column {
+        margin-bottom: 10px; 
+    }
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-COMMERCE</title>
+    <style>
+      nav .navbar-brand img {
+        max-width: 25vh;
+        object-fit: cover;
+
+        
+        
+      }
+
+   
+      
+    </style>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd" > 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logonav3.png" alt="" /><span class="fw-bold"
+              >Store</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li
+                class="nav-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <a class="nav-link fs-5" aria-current="page" href="#">
+                  Login
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="./pages/contacto.html" target="_blank"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="#"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./pages/carrito.html" target="_blank">
+                  <img
+                    src="./images/carrito3.png"
+                    alt="carrito"
+                    class="d-inline-block align-text-top"
+                    width="40"
+                    height="34"
+                  />
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" />
+              <button type="button" class="btn btn-secondary">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="./images/logologin3.png" width="40" alt="" />
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Iniciar sesión
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h5>Podes ingresar con tu cuenta de:</h5>
+            <div class="d-grid gap-2 col-6 mt-3">
+              <button class="btn btn-secondary" type="button">
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-0">
+                    <img
+                      src="./images/logoface3.png"
+                      width="18"
+                      alt=""
+                      class="align-text-top"
+                    />
+                  </div>
+                </div>
+                Facebook
+              </button>
+              <button class="btn btn-secondary" type="button">
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-0">
+                    <img
+                      src="./images/logogoogle.png"
+                      width="20"
+                      alt=""
+                      class="align-text-top"
+                    />
+                  </div>
+                </div>
+                Google
+              </button>
+            </div>
+            <h5 class="mt-3">ó con tu cuenta de Email</h5>
+            <div class="input-group">
+              <label>
+                Email
+                <input class="form-control" type="text" />
+              </label>
+            </div>
+            <div class="input-group">
+              <label>
+                Contraseña
+                <input class="form-control" type="password" />
+              </label>
+            </div>
+            <div class="mb-3 form-check mt-2">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Recordar usuario y contraseña.</label
+              >
+            </div>
+
+            <div>
+              <p>
+                <a href="#" data-bs-toggle="tooltip"
+                  >Te olvidaste la contraseña?</a
+                >
+                ó
+                <a href="./pages/registrarse.html" data-bs-toggle="tooltip"
+                  >Hace click aquí</a
+                >
+                para crear una cuenta.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+              Cancelar
+            </button>
+            <a href="./pages/error404.html" target="_blank" class="btn btn-info">Ingresar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--iNICIO - main content - Facundo Luque-->
+
+      <main>
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/coruosel-auricular-negro.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carousel.silla-gamer.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carousel-accesorios-gamer.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+
+        <section>
+          <article>
+           
+            <div class="container" id="ofertas">
+              <h3  style="color: rgb(4, 209, 4);" >Ofertas del dia</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="./pages/error404.html" target="_blank"><img src="./images/oferta1.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                  <a href="./pages/error404.html" target="_blank"><img src="./images/oferta2.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                  <a href="./pages/error404.html" target="_blank"><img src="./images/oferta3.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section>
+          <article>
+              <h3 style="color: rgb(4, 209, 4);">Perifericos</h3>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-3"> 
+                          <img src="./images/auricular inalambrico.jpg" alt="">
+                          <p>AURICULAR XIAOMI MI TRUE 2 BASIC INALAMBRICO COLOR BLANCO</p>
+                      </div>
+                      <div class="col-md-3"> 
+                         <a href="./pages/Detalle-Auricular.html" target="_blank"><img src="./images/auricular.png" alt=""></a>
+                          <p>AURICULAR BLUETOOTH NEGRO ON EAR MOONKI SOUND MH-O710BT</p>
+                      </div>
+                      <div class="col-md-3"> 
+                          <img src="./images/adpatador.jpg" alt="">
+                          <p>ADAPTADOR NANO USB BLUETOOTH 5.0 TP-LINK UB500</p>
+                      </div>
+                      <div class="col-md-3"> 
+                          <img src="./images/combo.png" alt="">
+                          <p>COMBO GAMER 4 EN 1 THERMALTAKE KNUCKER</p>
+                      </div>
+                      
+                  </div>
+              </div>
+          </article>
+
+          <div class="line"></div>
+        </section>
+
+        <section>
+          <article>
+              <h3 style="color: rgb(4, 209, 4);"> Sillas Gamer</h3>
+
+              <div class="container">
+                  <div class="row" id="silla">
+                      <div class="col-md-12" >
+                         <a href="./pages/Detalle-Silla.html" target="_blank"> <img src="./images/silla riotoro.jpg" alt="" > </a>
+                          <p>SILLA GAMER RIOTORO SPITFIRE M2 MESH</p>
+                      </div>
+                      
+
+                  </div>
+              </div>
+          </article>
+        </section>
+        <div class="line"></div>
+        <section>
+          <article>
+              <h3 style="color: rgb(4, 209, 4);">Accesorios</h3>
+
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-2">
+                          <img src="./images/aire comprimido.png" alt="">
+                          <p>AIRE COMPRIMIDO AIR DUSTER LIMPIADOR GTC 400ml</p>
+                      </div>
+                      <div class="col-md-2">
+                          <img src="./images/adaptador diplay.png" alt="">
+                          <p>Adaptador Displayport A Hdmi 4k 3d Full Hd</p>
+                      </div>
+                      <div class="col-md-2">
+                          <img src="./images/yauro.jpg" alt="">
+                          <p>YAHRO SPLITTER HDMI DIVISOR AMPLIFICADOR 1080P 4K 1×4 4 SALIDAS</p>
+                      </div>
+                      <div class="col-md-2">
+                          <img src="./images/cable vga.jpg" alt="">
+                          <p>CABLE VGA M/M 1.5MTS NETMAK NM-C18</p>
+                      </div>
+                      <div class="col-md-2">
+                          <img src="./images/tira led.png" alt="">
+                          <p>TIRA DE LED SMART TP-LINK TAPO L900-5 5MTS</p>
+                      </div>
+
+                      <div class="col-md-2">
+                        <img src="./images/cable.jpg" alt="">
+                        <p>CAU005 CABLE AUDIO 3,5mm M / 3 RCA M 1.8MTS BKT</p>
+                    </div>
+                  </div>
+              </div>
+          </article>
+        </section>
+        <div class="line"></div>
+      </main>
+    <!--Fin - main content - Facundo Luque-->
+
+      <!--Inicio- Abel Arizmendi - Footer con Bootstrap y animaciones -->
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-column">
+                    <div class="footer-logo">
+                        <img src="./images/logonav3.png" alt="footer-logo"
+                        width="100"
+                        height="45">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <div class="footer-social">
+                        Nuestra Redes Sociales
+                        <a href="https://www.facebook.com/zettacomputacion?locale=es_LA"><img src="./images/Logoface.png" 
+                            alt="Facebook"
+                            width="50"
+                            height="50"></a>
+  
+                            <a href="https://api.whatsapp.com/send?phone=5493585167469&text=Hola%20desde%20mi%20sitio%20web" 
+                            target="_blank">
+                            <img src="./images/LogoWsp.png" alt="WhatsApp"
+                            width="50"
+                            height="50"></a>
+  
+                    </div>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <div class="footer-info">
+                        Medios de pagos: 
+                        <img src="./images/Mercadopago.jpg" alt="medios-de-pago"
+                        width="150"
+                        height="100">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   <!--Fin- Abel Arizmendi - Footer con Bootstrap y animaciones -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

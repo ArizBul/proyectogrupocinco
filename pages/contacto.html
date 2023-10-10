@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <style>
+      nav .navbar-brand img {
+        max-width: 25vh;
+        object-fit: cover;
+      }
+    </style>
+
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../images/logonav3.png" alt="" /><span class="fw-bold"
+              >Store</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li
+                class="nav-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <a class="nav-link fs-5" aria-current="page" href="#">
+                  Login
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="#"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="#"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../pages/carrito.html">
+                  <img
+                    src="../images/carrito3.png"
+                    alt="carrito"
+                    class="d-inline-block align-text-top"
+                    width="40"
+                    height="34"
+                  />
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" />
+              <button type="button" class="btn btn-secondary">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+                  <!--INICIO- Modal - Oscar Mamani-->
+
+                  <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img src="../images/logologin3.png" width="40" alt="" />
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Iniciar sesión
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Podes ingresar con tu cuenta de:</h5>
+                        <div class="d-grid gap-2 col-6 mt-3">
+                          <button class="btn btn-secondary" type="button">
+                            <div class="position-relative">
+                              <div class="position-absolute top-0 start-0">
+                                <img
+                                  src="../images/logoface3.png"
+                                  width="18"
+                                  alt=""
+                                  class="align-text-top"
+                                />
+                              </div>
+                            </div>
+                            Facebook
+                          </button>
+                          <button class="btn btn-secondary" type="button">
+                            <div class="position-relative">
+                              <div class="position-absolute top-0 start-0">
+                                <img
+                                  src="../images/logogoogle.png"
+                                  width="20"
+                                  alt=""
+                                  class="align-text-top"
+                                />
+                              </div>
+                            </div>
+                            Google
+                          </button>
+                        </div>
+                        <h5 class="mt-3">ó con tu cuenta de Email</h5>
+                        <div class="input-group">
+                          <label>
+                            Email
+                            <input class="form-control" type="text" />
+                          </label>
+                        </div>
+                        <div class="input-group">
+                          <label>
+                            Contraseña
+                            <input class="form-control" type="password" />
+                          </label>
+                        </div>
+                        <div class="mb-3 form-check mt-2">
+                          <input
+                            type="checkbox"
+                            class="form-check-input"
+                            id="exampleCheck1"
+                          />
+                          <label class="form-check-label" for="exampleCheck1"
+                            >Recordar usuario y contraseña.</label
+                          >
+                        </div>
+            
+                        <div>
+                          <p>
+                            <a href="#" data-bs-toggle="tooltip"
+                              >Te olvidaste la contraseña?</a
+                            >
+                            ó
+                            <a href="../pages/registrarse.html" data-bs-toggle="tooltip"
+                              >Hace click aquí</a
+                            >
+                            para crear una cuenta.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                          Cancelar
+                        </button>
+                        <a href="../pages/error404.html" target="_blank" class="btn btn-info">Ingresar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                  <!--FIN - Modal - Oscar Mamani-->
+      <div class="container-contactos">
+        <div class="contactos">
+          <h3>Dejanos tu mensaje</h3>
+          <form action="">
+            <label for="email">
+              <p>E-mail*</p>
+              <input type="email" name="email" id="email" required />
+            </label>
+
+            <div class="text-area">
+              <p>Mensaje*</p>
+              <textarea name="text-area" id="text-area" cols="30" rows="10">
+              </textarea>
+            </div>
+            <label for="robot">
+              No soy un robot
+              <input type="checkbox" name="robot" id="robot" required />
+            </label>
+
+            <div class="submit">
+              <label for="submit">
+                <input type="submit" name="submit" id="submit" />
+              </label>
+            </div>
+          </form>
+        </div>
+
+        <div class="direccion">
+          <h3>Contacto</h3>
+
+         <h6>Telefono:</h6>
+          
+          <p>358 4643126</p>
+          
+          <h6>Email:</h6>
+          <p>ventas@zettacomputacion.com.ar</p>
+          <h6>Como llegar: </h6>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.5874308113493!2d-64.3513416!3d-33.119928699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2006d2d8c21d1%3A0x443efece97e9d216!2sSebasti%C3%A1n%20Vera%20383%2C%20X5800DFG%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1696880184690!5m2!1ses-419!2sar" tyle="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <!--width="450" height="250" -->
+        </div>
+
+      </div>
+    </main>
+        <!--Inicio- Abel Arizmendi - Footer con Bootstrap y animaciones -->
+        <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 footer-column">
+                      <div class="footer-logo">
+                          <img src="../images/logonav3.png" alt="footer-logo"
+                          width="100"
+                          height="45">
+                          
+                      </div>
+                  </div>
+                  <div class="col-md-4 footer-column">
+                      <div class="footer-social">
+                          Nuestra Redes Sociales
+                          <a href="https://www.facebook.com/zettacomputacion?locale=es_LA"><img src="../images/Logoface.png" 
+                              alt="Facebook"
+                              width="50"
+                              height="50"></a>
+    
+                              <a href="https://api.whatsapp.com/send?phone=5493585167469&text=Hola%20desde%20mi%20sitio%20web" 
+                              target="_blank">
+                              <img src="../images/LogoWsp.png" alt="WhatsApp"
+                              width="50"
+                              height="50"></a>
+    
+                      </div>
+                  </div>
+                  <div class="col-md-4 footer-column">
+                      <div class="footer-info">
+                          Medios de pagos: 
+                          <img src="../images/Mercadopago.jpg" alt="medios-de-pago"
+                          width="150"
+                          height="100">
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+     <!--Fin- Abel Arizmendi - Footer con Bootstrap y animaciones -->
+     
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
